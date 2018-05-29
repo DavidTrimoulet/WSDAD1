@@ -6,10 +6,20 @@ using System.Threading.Tasks;
 
 namespace WSDAD1
 {
-    class Program
+    public class Program
     {
+        delegate int DEL(int a, int b);
+
+        public int somme(int a, int b)
+        {
+            return a + b;
+        }
+
+
         static void Main(string[] args)
         {
+
+
         }
     }
 }
